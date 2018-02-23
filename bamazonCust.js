@@ -23,10 +23,24 @@ connection.connect(function(err) {
 function showTable() {
     connection.query("SELECT * FROM products", function(err, res) {
         for (var i = 0; i < res.length; i++) {
-            console.log(res[i].item_id + " | " + res[i].product_name + " | " + res[i].department_name + " | " + res[i].price);
+            console.log(res[i].item_id + " | " + res[i].product_name + " | " + res[i].department_name + " | " + res[i].price + " \n ");
         } 
-        console.log("-------------------------------------------");
+        // console.log("-------------------------------------------");
+        // user prompt
+        prompt(res);
     });
+
+}
+
+var prompt = function(res) {
+    inquirer
+        .prompt([
+            {
+                name: "id",
+                type: "input",
+                message: "What is the number of the item you would like to purchase?"
+            }
+        ])
 }
 
 
