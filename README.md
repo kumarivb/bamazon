@@ -6,8 +6,8 @@ User input is handled by the Inquirer node package; database calls are handled b
 
 # Screen Shots
 ![bam1](https://github.com/kumarivb/bamazon/blob/master/images/bam1.jpg)
-(Images/bam1.jpg)
-(Images/bam1.jpg)
+![bam2](https://github.com/kumarivb/bamazon/blob/master/images/bam2.jpg)
+![bam3](https://github.com/kumarivb/bamazon/blob/master/images/bam3.jpg)
 
 # Credits
 KVB
