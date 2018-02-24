@@ -5,7 +5,7 @@ An amazon-like storefront.
 User input is handled by the Inquirer node package; database calls are handled by the MySQL node package. Just run `node bamazonCust.js` from the main directory.
 
 # Screen Shots
-(Images/bam1.jpg)
+![bam1](https://github.com/kumarivb/bamazon/images/bam1.jpg)
 (Images/bam1.jpg)
 (Images/bam1.jpg)
 
